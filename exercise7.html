@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let instead=0
+    for (let i=1;i<101;i++){
+        instead=i;
+        if(instead%3==0 && instead%5==0){
+            instead=document.write("FizzBuzz____");
+        }else if(instead%3==0 && instead%5 != 0){
+            instead=document.write("Fizz"+"____");
+        }else if(instead%3!=0 && instead%5 ==0){
+            instead=document.write("Buzz"+"____");
+        }else {
+            instead = document.write(i + "____");
+        }
+    }
+</script>
+</body>
+</html>
